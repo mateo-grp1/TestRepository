@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+	<!-- Q3 -->
+	<style type="text/css">
+		#header{
+				color: white;
+				background-color : black;
+				text-align : center;
+				padding : 5px;
+		}
+
+		#nav{
+			line-height : 80px ; 
+			background-color : #eeddbb ; 
+			height : 640px ; 
+			width : 200px ; 	
+			float : left ; 
+			padding : 5px ; 
+			border : 1px solid black ; 
+			list-style-type : none ;
+		}
+
+		ul{
+			list-style-type : none ; 
+		}
+		al{
+			text-decoration : none ; 
+		}
+
+
+		#section{
+			width : auto ;   
+			height : 640px ; 
+			padding : 5px ; 
+			background : url(background2.gif) ; 
+			text-indent : 20px ; 
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+
+		img{
+			margin-left: 20px;
+		}
+
+		#footer{
+			background-color : black ; 
+			color : white ; 
+			clear : both ;
+			text-align : center ;
+			padding : 10px ;
+		}
+
+		.drapeauAllemagne div{
+			height: 50px;
+			width: 300px;
+			margin-left: 20px;
+		}
+
+		
+
+		.drapeauFrance div{
+			height: 100px;
+			width: 50px;
+			float: left;
+		}
+
+		#blanc{
+			background-color: white;
+		}
+
+		#bleu{
+			background-color: blue;
+		}
+
+		h1{
+			clear: both;
+		}
+
+
+	</style>
+</head>
+
+<body>
+	<!-- Q1 Structure de la page -->
+	<!-- autre facon non recommande -->
+	<div id = "header">
+		<!-- Q2 -->
+		<h1>Galerie de Villes</h1>
+	</div>
+
+	<!-- Q4 -->
+	<div id = "nav">
+		<ul>
+			<li><a href ="#">Paris</a></li>
+			<li><a href ="#">Berlin</a></li>
+			<li><a href ="#">RomeTESTTEST</a></li>
+
+		</ul>
+	</div>
+
+	<div id = "section">
+		<h2>Paris</h2>	
+		<p>Paris est la capitale de la République Française</p>
+ 		<img src = "imageParis.jpeg" alt = "imageParis" height="100" width="150">
+
+ 		<h2>Berlin</h2>	
+		<p>Berlin est la capitale de l'Allemagne</p>
+ 		<img src = "imageBerlin.jpeg" alt = "imageBerlin" height="100" width="150">
+
+ 		<h2>Rome</h2>	
+		<p>Rome est la capitale de l'Italie</p>
+ 		<img src = "imageRome.jpeg" alt = "imageRome" height="100" width="150">
+	</div>
+
+
+	<div id = "footer">
+		<p>&copy Copyright; 2025 Manolo HINA </p>
+		<!-- clear both pour forcer le footer à s'afficher en bas -->
+	</div>
+
+
+	<div class = "drapeauFrance">
+		<div id = "bleu"></div>
+		<div id = "blanc"></div>
+		<div id = "bleu"></div>
+		<h1>France</h1>
+	</div>
+
+	
+
+</body>
+</html>
